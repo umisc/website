@@ -1,0 +1,1 @@
+djangocms-installer >= 0.9.7
