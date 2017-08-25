@@ -8,6 +8,7 @@
 /sql
 /fcgi/django.fcgi
 /static/css/*.css
+*.db
 
 # Common IDEs
 *.swp
