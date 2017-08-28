@@ -6,7 +6,7 @@ Public repo for the MISC informational website.
 Introduction
 ------------
 
-This application is built with Django CMS. Requirements are included in the root repository directory. They can be installed with `pip install -r requirements.txt`.
+This application is built with Django. Requirements are included in the root repository directory. They can be installed with `pip install -r requirements.txt`.
 
 Installation
 ------------
