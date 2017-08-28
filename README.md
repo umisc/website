@@ -1,30 +1,24 @@
 website
 =======
 
-Public repo for the MISC informational website.
+Public repo for the MISC informational website Ghost theme.
 
 Introduction
 ------------
 
-This application is built with Django. Requirements are included in the root repository directory. They can be installed with `pip install -r requirements.txt`.
+This application is meant to be used with the Ghost CMS/blogging platform. Simply put, it's a theme. See Ghost documentation to see more about the actual software/framework used as a blog.
 
-Installation
-------------
+Pages
+-----
 
-You will need the following:
+-	About
 
--	`python` and `pip`
--	`virtualenv`
+What is the club about? Who are the people on the committee? Where do people go to get in touch with the committee?
 
-After installing dependencies:
+-	Schedule
 
-```bash
-$ virtualenv env
-$ source ./env/bin/activate
-$ pip install -r requirements.txt
-$ cd miscsite
-$ python manage.py migrate
-$ python manage.py runserver 0:8000
-```
+When does the club meet? Where? What will be covered at each session?
 
-This will run the server on your machine. Anybody as part of your immediate network will be able to access it. You can access it from http://localhost:8000.
+-	Resources
+
+Articles, virtual machines, etc for people who want to learn about security. What links should people follow if they want to be part of the club?
